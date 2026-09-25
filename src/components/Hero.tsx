@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion'
-import { ArrowDown, Mail } from 'lucide-react'
+import { ArrowDown, Mail, Phone } from 'lucide-react'
 import { useRef, type MouseEvent } from 'react'
 import { fadeUp, staggerContainer } from '../animations/variants'
 import { GithubIcon, LinkedinIcon } from './icons/BrandIcons'
 
 const SOCIALS = [
-  { icon: GithubIcon, href: 'https://github.com', label: 'GitHub' },
-  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/pavan-kumar-naik', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:pavan.naik@in.nspglobaltech.com', label: 'Email' },
+  { icon: GithubIcon, href: 'https://github.com/pavankumarnaik97', label: 'GitHub' },
+  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/pavan-naik-77b64a20b/', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:pavankumarnaik96@gmail.com', label: 'Email' },
+  { icon: Phone, href: 'tel:+917483266903', label: 'Phone' },
 ]
 
 const FLOAT_TAGS = [

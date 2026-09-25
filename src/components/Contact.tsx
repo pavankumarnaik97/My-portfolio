@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import { Loader2, Mail, Send, CheckCircle2 } from 'lucide-react'
+import { Loader2, Mail, Phone, Send, CheckCircle2 } from 'lucide-react'
 import { useState, type FormEvent } from 'react'
 import { fadeUp, staggerContainer, viewportDefault } from '../animations/variants'
 import { GithubIcon, LinkedinIcon } from './icons/BrandIcons'
@@ -8,9 +8,10 @@ import SectionKicker from './SectionKicker'
 type FormStatus = 'idle' | 'loading' | 'success'
 
 const CONTACT_LINKS = [
-  { icon: Mail, label: 'pavan.naik@in.nspglobaltech.com', href: 'mailto:pavan.naik@in.nspglobaltech.com' },
-  { icon: LinkedinIcon, label: 'linkedin.com/in/pavan-kumar-naik', href: 'https://www.linkedin.com/in/pavan-kumar-naik' },
-  { icon: GithubIcon, label: 'github.com', href: 'https://github.com' },
+  { icon: Mail, label: 'pavankumarnaik96@gmail.com', href: 'mailto:pavankumarnaik96@gmail.com' },
+  { icon: Phone, label: '+91 74832 66903', href: 'tel:+917483266903' },
+  { icon: LinkedinIcon, label: 'linkedin.com/in/pavan-naik-77b64a20b', href: 'https://www.linkedin.com/in/pavan-naik-77b64a20b/' },
+  { icon: GithubIcon, label: 'github.com/pavankumarnaik97', href: 'https://github.com/pavankumarnaik97' },
 ]
 
 export default function Contact() {
